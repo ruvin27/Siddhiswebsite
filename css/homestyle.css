@@ -148,7 +148,6 @@ nav ul.dropdown-list {
 
 .hamburger {
     display: none;
-    margin-right: 50px;
 }
 
 .mobile .hamburger {
@@ -338,10 +337,11 @@ src: url(bday.ttf);
   .containertext span{
     text-transform: uppercase;
     display: block;
+    padding: 10px;
   }
   .text1{
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     letter-spacing: 8px;
     position: relative;
