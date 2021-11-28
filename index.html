@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/loginstyle.css" />
+    <title>Sign in</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form class="sign-in-form" name="myForm" action="pages/home.html"  onsubmit="return validateForm()">
+            <h2 class="title">Sign in</h2>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" name="password" />
+            </div>
+            <a href="home.html"><input type="submit" value="Login" class="btn solid" /></a>
+           
+          </form>
+         
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>New here ?</h3>
+            <p>
+              Try the most frequent word as the password
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <script src="js/login.js"></script>
+  </body>
+</html>
